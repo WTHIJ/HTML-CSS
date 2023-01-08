@@ -27,24 +27,22 @@ body {
 }
 
 .welcome {  
-    background-color: black;
-    color: midnightblue;
+    color: #1e4857;
     margin: 0 auto;
     display: block;
     width: 50%;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .welcome .title {
     margin: 0 auto;
+    white-space: nowrap;
     width: 50%;
     font-size: 3em;
     font-family: PoppinsBold;
-    background-color: aqua;
 }
 
 .welcome .date {
-    background-color: green;
     margin: 0 auto;
     width: 50%;
 }
