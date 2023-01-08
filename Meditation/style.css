@@ -18,6 +18,7 @@
 
 
 body {
+    position: absolute;
     background-image: url(backgrounds/Background\ Nature.jpg);
     width: 100vw;
     height: 100vh;
