@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsLight;
+    src: url(fonts/Poppins/Poppins-Light.ttf);
+}
+
+
+
+body {
+    background-image: url(backgrounds/Background\ Nature.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    font-family: PoppinsLight;
+}
+
+.welcome {
+    color: midnightblue;
+    position: absolute;
+    display: block;
+    text-align: left;
+    right: 15%;
+}
