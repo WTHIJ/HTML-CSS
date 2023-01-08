@@ -26,18 +26,16 @@ body {
 
 }
 
-.welcome {
+.welcome {  
     background-color: black;
     color: midnightblue;
     margin: 0 auto;
     display: block;
     width: 50%;
-    padding-left: 170px;
     padding-top: 150px;
 }
 
 .welcome .title {
-    display: float;
     margin: 0 auto;
     width: 50%;
     font-size: 3em;
@@ -46,7 +44,6 @@ body {
 }
 
 .welcome .date {
-    display: float;
     background-color: green;
     margin: 0 auto;
     width: 50%;
