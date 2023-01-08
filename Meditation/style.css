@@ -37,6 +37,7 @@ body {
 }
 
 .welcome .title {
+    display: float;
     margin: 0 auto;
     width: 50%;
     font-size: 3em;
@@ -45,6 +46,7 @@ body {
 }
 
 .welcome .date {
+    display: float;
     background-color: green;
     margin: 0 auto;
     width: 50%;
