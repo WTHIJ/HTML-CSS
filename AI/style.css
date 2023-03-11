@@ -1,0 +1,274 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+	background-color: #252525;
+	font-family: Poppins;
+	overflow: overlay;
+}
+
+.content {
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/BG_ESLA.jpg);
+	background-size: cover;
+}
+
+header {
+	color: aliceblue;
+	font-family: Poppins;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+
+.title {
+	font-size: 2em;
+	color: aliceblue;
+	user-select: none;
+}
+
+.navigation a {
+	position: relative;
+	color: aliceblue;
+	margin-left: 40px;
+}
+
+.navigation a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom:-6px;
+	width: 100%;
+	height: 3px;
+	background: aliceblue;
+	border-radius: 5px;
+	transform: scaleX(0);
+	transition: transform .5s;
+	transform-origin: left;
+
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+
+/* *********************************************** */
+
+.container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.text {
+	font-family: Poppins;
+	font-weight: bold;
+	color: aliceblue;
+	font-size: 1.75em;
+}
+.dud {
+	color: aliceblue;;
+}
+
+/* ************************************************ */
+
+.content:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(to bottom, transparent 90%, #252525 100%);
+}
+
+.card1, .card3, .card5, .card7, .card9 {
+	align-items: center;
+	position: relative;
+	float: left;
+	left: 50px;
+	border-radius: 45px;
+	background: #252525;
+	box-shadow:  22px 22px 44px #0f0f0f, -22px -22px 44px #3b3b3b;
+	color: aliceblue;
+	width: 80vw;
+	height: 20vw;
+	margin-top: 100px;
+}
+
+.card2, .card4, .card6, .card8, .card10 {
+	position: relative;
+	float: right;
+	right: 50px;
+	border-radius: 45px;
+	background: #252525;
+	box-shadow:  22px 22px 44px #0f0f0f, -22px -22px 44px #3b3b3b;
+	color: aliceblue;
+	width: 80vw;
+	height: 20vw;
+	margin-top: 100px;
+}
+
+.cardtitle {
+	font-size: 2vw;
+	position: absolute;
+	top: 10%;
+	float: left;
+	left: 5%;
+}
+
+.paragraphcard1 {
+	width: 70%;
+	position: absolute;
+	color: aliceblue;
+	top: 26.5%;
+	float: left;
+	left: 5%;
+	font-size: 1.1vw;
+	justify-content: center;
+	text-align: justify;
+}
+
+#turing {
+	position: absolute;
+	border-radius: 45px;
+	float: right;
+	right: 5%;
+	top: 10%;
+	width: 12vw;
+	height: 15.5vw;
+}
+
+.paragraphcard2 {
+	width: 90%;
+	position: absolute;
+	color: aliceblue;
+	top: 27.5%;
+	float: left;
+	left: 5%;
+	font-size: 1.1vw;
+	justify-content: center;
+	text-align: justify;
+}
+
+.paragraphcard3 {
+	width: 70%;
+	position: absolute;
+	color: aliceblue;
+	top: 27.5%;
+	float: left;
+	left: 5%;
+	font-size: 1.1vw;
+	justify-content: center;
+	text-align: justify;
+}
+
+.thisite {
+	align-items: center;
+	position: relative;
+	display: float;
+	float: left;
+	left: 5%;
+	border-radius: 45px;
+	background: #252525;
+	box-shadow:  22px 22px 44px #0f0f0f, -22px -22px 44px #3b3b3b;
+	color: aliceblue;
+	width: 90vw;
+	height: 30vw;
+	margin: 100px auto 50px
+}
+
+.otstitle {
+	font-size: 2vw;
+	position: absolute;
+	top: 10%;
+	float: left;
+	left: 5%;
+}
+
+.otsparagraph {
+	width: 60%;
+	position: absolute;
+	color: aliceblue;
+	top: 27.5%;
+	float: left;
+	left: 5%;
+	font-size: 1.2vw;
+	justify-content: center;
+	text-align: justify;
+}
+
+#waving {
+	position: absolute;
+	float: right;
+	right: 10%;
+	top: 15vw;
+	width: 15vw;
+	height: 15vw;
+}
+
+#Midjourney {
+	position: absolute;
+	border-radius: 45px;
+	float: right;
+	right: 4%;
+	top: 25%;
+	width: 13.5vw;
+	height: 10vw;
+}
+
+#robot {
+	position: absolute;
+	border-radius: 45px;
+	float: right;
+	right: 4%;
+	top: 22%;
+	width: 13.5vw;
+	height: 11.5vw;
+}
+
+#Terminator {
+	position: absolute;
+	border-radius: 45px;
+	float: right;
+	right: 5%;
+	top: 15%;
+	width: 12vw;
+	height: 14vw;
+}
+
+/* ******************************************** */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  
+::-webkit-scrollbar-thumb {
+	background-color: #474747;
+	border-radius: 10px;
+	height: 10px;
+  }
+
+/* ******************************************** */
